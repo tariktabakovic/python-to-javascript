@@ -28,3 +28,32 @@ console.log("Hello World");
 
 // print (turkeysCooked)
 console.log(turkeysCooked);
+
+// print (f"I ate {turkeysCooked} turkeys!")
+console.log(`I ate ${turkeysCooked} turkeys!`);
+// You can use backtick-strings for interpolations.
+// also called - Template Srings
+// also called - Template Literals
+
+// print (f"how many turkeys I should eat {numberOfTurkeysICanEat- turkeysCooked}!")
+console.log (`Turkeys to eat: ${numberOfTurkeysICanEat - turkeysCooked}`);
+// Inside of "${}", you can put any valid Javascript expression.
+debugger;
+let catName = `Ziggy`;
+
+// catName.toUpperCase();
+// When do I upper-case in HTML vs CSS vs JavaScript?
+// - Wherever you have control
+// - If it wont change for a long time, HTML
+// - If you can't change the HTML, use CSS
+// - If you get the data from a server, Javascript
+
+console.log(`${catName.toUpperCase()} is ${catName.length} characters long`);
+// .toUpperCase is a method (ex: a function that belongs to an object)
+// .length is a property (ex: a variable that belongs to an object)
+
+const aboutMyCat = (`${catName.toUpperCase()} is ${catName.length} characters long`);
+console.log(aboutMyCat)
+
+catName = "Milllllla";
+console.log(aboutMyCat);
